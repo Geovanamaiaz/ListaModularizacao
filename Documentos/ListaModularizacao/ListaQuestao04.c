@@ -10,7 +10,7 @@ devem ser gerados quatro números aleatórios entre 1 e 100.*/
      int numero;
 
     // Repetir até a quantidade de numeros informada
-    for (int i = 0; i < 100; i++){
+    for (int i = 0; i < quantidade; i++){
 
         // função rand() da biblioteca stdlib.h gera um número inteiro aleatório
        // % limite calcula o resto da divisão desse número pelo limite
@@ -25,7 +25,7 @@ devem ser gerados quatro números aleatórios entre 1 e 100.*/
     }
 }
 
-int main()
+  int main()
 {
     // Invoca a função passando diretamente os valores 4 e 100
     // 4 = quantidade de números
